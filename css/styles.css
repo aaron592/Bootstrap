@@ -3,7 +3,7 @@
 }
 
 .image1{
-	padding-left:200px;
+	
 	width:460px;
 	height:auto;
 	margin:auto;
@@ -13,6 +13,4 @@ h1{
 	font-size: 3rem;
 	line-height: 1.5;
 }
-.container-fluid{
-	padding: 1% 3%;
-}
+
