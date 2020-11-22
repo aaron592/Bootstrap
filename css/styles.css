@@ -4,14 +4,31 @@
 
 .image1{	
 	width:60%;
+	transform: rotate(25deg);
+	position:absolute;
 	
-	transform: rotate(20deg);
 	
+}
+
+.container-fluid{
+	padding: 0% 0% 15%;
 }
 
 h1{
 	font-family: "Montserrat-Black";
 	font-size: 3.5rem;
+	line-height: 1.5;
+}
+#h2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+#h22{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	font-size: 2rem;
 	line-height: 1.5;
 }
 #h3 {
@@ -94,7 +111,10 @@ margin: 5% 0 0 0;
 /* featured section*/
 
 #features{
-	padding: 7% 15%;
+	padding: 7% 15% ;
+	background-color:#fff;
+	position:relative;
+	
 }
 .feature-box{
 	text-align:center;
@@ -107,3 +127,70 @@ margin: 5% 0 0 0;
 .icon:hover{
 	color:#82ccdd;
 }
+/* Testimonials*/
+
+#testimonials{
+	
+	text-align:center;
+	background-color:#3c6382;
+	color:#dcdde1;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+}
+#testimonial-image{
+	
+	width:270px;
+	height:auto;
+	border-radius:10%;
+	margin:20px;
+}
+#testimonial-image1{
+	
+	width:100px;
+	border-radius:100%;
+	margin:20px;
+}
+}
+#press{
+	background-color:#3c6382;
+	text-align:center;
+	padding-bottom: 3%;
+	
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+
+/* pricing section */
+ #pricing{
+	 padding:100px;
+	 text-align:center;
+ }
+
+ .pricing-column{
+	 padding: 3% 2%;
+ }
+
+ @media (max-width: 1028px) {
+	 #title{
+		 text-align:center;
+	 }
+	 .image1{
+		 position:static;
+		 transform: rotate(0);
+		 
+	 }
+ }
+ 
+ /* footer */
+ 
+ #cta{
+	 background-color:#82ccdd;
+	 padding:7% 10% 0%;
+	 text-align:center;
+ }
+ #footer{
+	 text-align:center;
+	 padding: 5%; 
+ }
+ 
